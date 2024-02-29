@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 im = Image.open('earth-icon-world-symbol-thin-line-icon-on-white-background-for-graphics-and-web-design-illustration-free-vector.jpg')
-im1 = Image.open('earth-icon-world-symbol-thin-line-icon-on-white-background-for-graphics-and-web-design-illustration-free-vector.jpg')
+im1 = Image.open('WhatsApp Image 2024-02-29 at 18.53.55.jpeg')
 st.set_page_config( page_title="IemCrp Result", page_icon = im ,layout="wide")  
 
 
@@ -17,4 +17,6 @@ hide_default_format = """
        </style>
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)  
+st.header("EMOVIBE")
+st.image(new_image, caption='Scan and pay Rs.31 to redirect you to the link')
   
