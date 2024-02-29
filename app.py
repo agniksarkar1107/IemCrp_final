@@ -1,6 +1,6 @@
 import streamlit as st 
 from PIL import Image
-import webbrowser
+
 
 im = Image.open('earth-icon-world-symbol-thin-line-icon-on-white-background-for-graphics-and-web-design-illustration-free-vector.jpg')
 im1 = Image.open('WhatsApp Image 2024-02-29 at 18.53.55.jpeg')
