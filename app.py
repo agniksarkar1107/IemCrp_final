@@ -17,6 +17,11 @@ hide_default_format = """
        </style>
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)  
-st.header("EMOVIBE")
+st.header("GET IEMCRP RESULT LINK")
 st.image(new_image, caption='Scan and pay Rs.31 to redirect you to the link')
+
+btn = st.button("Redirect me to the link")
+
+if btn:
+       webbrowser.open(f"https://unsplash.com/s/photos/gay-love")
   
