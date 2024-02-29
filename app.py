@@ -25,4 +25,5 @@ btn = st.button("Redirect me to the link")
 
 if btn:
        webbrowser.open(f"https://unsplash.com/s/photos/gay-love")
+       st.session_state["run"] = "false"
   
