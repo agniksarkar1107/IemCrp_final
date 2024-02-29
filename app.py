@@ -6,7 +6,7 @@ im1 = Image.open('WhatsApp Image 2024-02-29 at 18.53.55.jpeg')
 st.set_page_config( page_title="IemCrp Result", page_icon = im ,layout="wide")  
 
 
-new_image = im1.resize((150, 100))
+new_image = im1.resize((900, 600))
    
 
 
