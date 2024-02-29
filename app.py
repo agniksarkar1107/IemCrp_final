@@ -24,6 +24,5 @@ st.image(new_image, caption='Scan and pay Rs.31 to redirect you to the link')
 btn = st.button("Redirect me to the link")
 
 if btn:
-       webbrowser.open(f"https://unsplash.com/s/photos/gay-love")
-       st.session_state["run"] = "false"
+       print("YOU ARE GAY")
   
