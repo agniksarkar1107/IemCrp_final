@@ -24,5 +24,5 @@ st.image(new_image, caption='Scan and pay Rs.31 to redirect you to the link')
 btn = st.button("Redirect me to the link")
 
 if btn:
-       print("YOU ARE GAY")
+       st.write("YOU ARE GAY")
   
